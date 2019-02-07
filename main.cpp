@@ -5,11 +5,10 @@ using namespace std;
 int main(){
     int i = 99;
 
-    while(i > 0){
-        for(i = 99; i > 0; i--){
-            cout << i << " bottles of beer on the wall, " << i << " bottles of beer," << endl
-            << "Take one down and pass it around, " << (i - 1) << " bottles of beer on the wall.\n" << endl;
-        }
+    for(i = 99; i > 0; i--){
+        cout << i << " bottles of beer on the wall, " << i << " bottles of beer," << endl
+        << "Take one down and pass it around, " << (i - 1) << " bottles of beer on the wall.\n" << endl;
     }
+
     
 }
